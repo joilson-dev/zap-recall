@@ -1,13 +1,19 @@
 import Progression from "./components/progression/progression"
 import Questions from "./components/questions/questions"
 
+import GlobalStyle from "./global-styles"
+import { StyledImage,Container } from "./App-styles"
+
 function App() {
 
   return (
     <>
-    <img src=".\src\assets\logo.svg" alt="logo" />
+    <Container>
+    <GlobalStyle/>
+    <StyledImage src=".\src\assets\logo.svg" alt="logo" />
     <Questions/>
     <Progression/>
+    </Container>
     </>
   )
 }
