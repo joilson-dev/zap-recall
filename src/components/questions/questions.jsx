@@ -1,8 +1,18 @@
+import { StyledQuestions,SetaPlay } from "./Questions-styles";
+import seta from "/src/assets/seta_play.png";
+
 function Questions(){
     return(
         <>
-        <div>pergunta 1</div>
-        <div>pergunta 2</div>
+        <StyledQuestions>
+           <p>pergunta 1</p>
+            <SetaPlay src={seta}/>
+        </StyledQuestions>
+
+        <StyledQuestions>
+            pergunta 1
+            <SetaPlay src={seta}/>
+        </StyledQuestions>
         </>
     )
 }

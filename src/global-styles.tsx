@@ -2,13 +2,10 @@ import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&display=swap');
-
 body{
   background: #FB6B6B;
   border: 1px solid #DBDBDB;
   font-family: Recursive;
-
 }
 
   /* Reset CSS */
@@ -35,7 +32,6 @@ body{
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
   }
 

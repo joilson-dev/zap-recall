@@ -1,8 +1,8 @@
-import Progression from "./components/progression/progression"
-import Questions from "./components/questions/questions"
+import Progression from "./components/progression/Progression"
 
 import GlobalStyle from "./global-styles"
 import { StyledImage,Container } from "./App-styles"
+import Questions from './components/questions/Questions';
 
 function App() {
 
