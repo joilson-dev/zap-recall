@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const StyledQuestionsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
 export const StyledQuestions = styled.div`
 display: flex;
 justify-content: space-between;
@@ -18,6 +24,12 @@ border-radius: 5px;
 font-size: 16px;
 font-weight: 700;
 line-height: 19.2px;
+
+&:last-child {
+
+    position: relative;
+    margin-bottom: 95px;
+  }
 `;
 
 export const SetaPlay = styled.img`
