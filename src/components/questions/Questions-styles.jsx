@@ -63,3 +63,47 @@ justify-content: flex-end;
 width: 100%;
 height: 100%;
  `;
+
+
+export const AnswerCard = styled.div`
+  background: #ffffd4;
+  color: #333333;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 131px;
+  box-shadow: 0px 4px 5px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  padding: 15px;
+  box-sizing: content-box;
+
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+  }
+`;
+
+export const AnswerButton = styled.button`
+  background-color: ${({ color }) => color};
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding-left: 8px ;
+  padding-right: 8px ;
+  width: 100%;
+  height: 38px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+
+`;
