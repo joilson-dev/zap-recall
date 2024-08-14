@@ -18,7 +18,7 @@ export const StyledQuestions = styled.div`
   margin: 0 38px 25px 38px;
   padding-left: ${({ isFlipped }) => (isFlipped ? "0" : "15px")};
   padding-right: ${({ isFlipped }) => (isFlipped ? "0" : "15px")};
-color: ${({ answer }) =>
+  color: ${({ answer }) =>
     answer === "error" ? "#FF3030;" :
       answer === "almost" ? "#FF922E;" :
         answer === "zap" ? "#2FBE34;" :

@@ -1,10 +1,11 @@
-import {StyleProperty} from './Progression-styles';
-function Progression() {
+import { StyleProperty } from './Progression-styles';
+
+function Progression({ completed, total }) {
   return (
     <StyleProperty>
-    <p>0/4 CONCLUÍDOS</p>
+      <p>{completed}/{total} CONCLUÍDOS</p>
     </StyleProperty>
-  )
+  );
 }
 
-export default Progression
+export default Progression;
