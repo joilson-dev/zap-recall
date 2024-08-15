@@ -7,16 +7,22 @@ Zap Recall é uma aplicação de flashcards desenvolvida em React, onde o objeti
   <img height="400" src="./src/assets/zapRecall.gif">
 </p>
 
+## 🎯 Tecnologias
+As seguintes ferramentas e estruturas foram utilizadas na construção do projeto:
+
+
 ## 🎯 Descrição
 
 Flashcards são cartões de estudo com uma pergunta/afirmação na frente e uma resposta atrás. Eles ajudam a testar o conhecimento e identificar quais conteúdos precisam ser revisados. O projeto consiste em um app de flashcards com, pelo menos, 8 cartões, onde o usuário pode responder perguntas e acompanhar seu progresso.
 
 
-##🚀Passo a passo para rodar o projeto
+## 🚀Passo a passo para rodar o projeto
 Clone o repositório:
 
 
-`git clone https://github.com/joilson-dev/zap-recall.git`
+```bash
+git clone https://github.com/joilson-dev/zap-recall.git
+```
 
 Entre na pasta do projeto:
 
