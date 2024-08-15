@@ -7,16 +7,16 @@ Zap Recall é uma aplicação de flashcards desenvolvida em React, onde o objeti
   <img height="400" src="./src/assets/zapRecall.gif">
 </p>
 
-## 🎯 Tecnologias
+## 🔧 Tecnologias
 As seguintes ferramentas e estruturas foram utilizadas na construção do projeto:
 
-
+<img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" /> <img height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /> <img height="50" src="https://www.svgrepo.com/show/306811/styled-components.svg" />
 ## 🎯 Descrição
 
 Flashcards são cartões de estudo com uma pergunta/afirmação na frente e uma resposta atrás. Eles ajudam a testar o conhecimento e identificar quais conteúdos precisam ser revisados. O projeto consiste em um app de flashcards com, pelo menos, 8 cartões, onde o usuário pode responder perguntas e acompanhar seu progresso.
 
 
-## 🚀Passo a passo para rodar o projeto
+## 🚀 Passo a passo para rodar o projeto
 Clone o repositório:
 
 
