@@ -5,6 +5,7 @@ import { StyledImage, Container } from "./App-styles"
 import Questions from "./components/questions/Questions"
 import { useState } from "react";
 import CARDS from "./mock";
+import logo from './assets/logo.svg';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
     <>
       <Container>
         <GlobalStyle />
-        <StyledImage src=".\src\assets\logo.svg" alt="logo" />
+        <StyledImage src={logo} alt="logo" />
         <Questions onAnswer={handleAnswerUpdate} />
         <Progression completed={completedCount} total={CARDS.length} />
       </Container>
