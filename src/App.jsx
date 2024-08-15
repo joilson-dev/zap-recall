@@ -1,4 +1,4 @@
-import Progression from "components/progression/Progression";
+import { Progression } from "components/progression/Progression";
 import GlobalStyle from "./global-styles"
 import { StyledImage, Container } from "./App-styles"
 import Questions from "./components/questions/Questions"
