@@ -2,7 +2,7 @@ import Progression from "./components/progression/Progression"
 
 import GlobalStyle from "./global-styles"
 import { StyledImage, Container } from "./App-styles"
-import Questions from "./components/questions/Questions"
+import Questions from "/src/components/questions/Questions"
 import { useState } from "react";
 import CARDS from "./mock";
 import logo from './assets/logo.svg';
@@ -15,8 +15,6 @@ function App() {
     setCompletedCount(prevCount => prevCount + 1);
   };
 
-  console.log(completedCount)
-  console.log(CARDS.length)
   return (
     <>
       <Container>
