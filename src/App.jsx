@@ -18,7 +18,7 @@ function App() {
     <>
       <Container>
         <GlobalStyle />
-        <StyledImage src={logo} alt="logoo" />
+        <StyledImage src={logo} alt="logo" />
         <Questions onAnswer={handleAnswerUpdate} />
         <Progression completed={completedCount} total={CARDS.length} />
       </Container>
