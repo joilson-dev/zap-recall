@@ -1,7 +1,7 @@
 import Progression from './components/progression/Progression.jsx';
+import Questions from "./components/questions/Questions.jsx"
 import GlobalStyle from "./global-styles"
 import { StyledImage, Container } from "./App-styles"
-import Questions from "./components/questions/Questions"
 import { useState } from "react";
 import CARDS from "./mock";
 import logo from './assets/logo.svg';
